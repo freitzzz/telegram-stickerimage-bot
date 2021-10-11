@@ -1,6 +1,6 @@
 {
   "msg": {
-    "start": "Olá!\nEu sou bot e permito-te converter stickers em imagens. Se me enviares:\n- Um link de stickers eu converto em .jpeg, comprimo e envio-te um .zip.\n- Um sticker eu converto diretamente para .jpeg.\n\nComandos disponíveis:\n\n- /newpack inicia a conversão de stickers\n- /finish para terminar a listagem de stickers e receber o .zip. Adicionalmente escreve 'png' se decides receber imagens com fundo transparente. Também podes indicar a dimensão das imagens, usando um numero entre 0 e 512.\n\nExemplos: '/finish 128' dá-te os stickers no formato .jpeg e com a dimensão de 128x128.\n'/finish png 160' converte os stickers no formato .png e dimensão 160x160.\n\n- /cancel permite-te cancelar o processo de conversão.\n\n- /lang permite-te trocar o idioma do bot.\n\nExemplos: '/lang' indica os idiomas disponíveis, '/lang de' altera o idioma do bot para Alemão.",
+    "start": "Olá!\nEu sou bot e permito-te converter stickers em imagens. Se me enviares:\n- Um link de stickers eu converto em .jpeg, comprimo e envio-te um .zip.\n- Um sticker eu converto diretamente para .jpeg.\n\nComandos disponíveis:\n\n- /newpack inicia a conversão de stickers\n- /finish para terminar a listagem de stickers e receber o .zip. Adicionalmente escreve 'png' se decides receber imagens com fundo transparente. Também podes indicar a dimensão das imagens, usando um numero entre 0 e 512.\n\nExemplos: '/finish 128' dá-te os stickers no formato .jpeg e com a dimensão de 128x128.\n'/finish png 160' converte os stickers no formato .png e dimensão 160x160.\n\n- /sources guia-te sobre as fontes (URL links) aceitadas pelo bot.\n\n- /cancel permite-te cancelar o processo de conversão.\n\n- /lang permite-te trocar o idioma do bot.\n\nExemplos: '/lang' indica os idiomas disponíveis, '/lang de' altera o idioma do bot para Alemão.",
     "newpack": "Iniciado novo processo de conversão. Podes-me enviar stickers ou links de stickers (até %max% stickers).",
     "saved": "Sticker armazenado. Podes converter mais %remain% stickers. Envia-me mais stickers ou utiliza o comando /finish para receber o .zip. Qualquer outra mensagem revela a informação de ajuda.",
     "downloading": "[1/4] Transferindo os stickers...",
@@ -24,7 +24,9 @@
     "invalid_set": "Ocorreu um erro ao obter informação do conjunto de stickers %setName%.",
     "convert_error": "Ocorreu um erro ao converter um sticker em imagem.",
     "download_error": "Ocorreu um erro ao transferir um sticker.",
-    "direct_task_started": "Convertendo o sticker em imagem... \n\n  Tip: Utiliza o comando /newpack se desejas:\n    - Converter vários stickers simultaneamente,\n    - Converter um conjunto completo de stickers."
+    "direct_task_started": "Convertendo o sticker em imagem... \n\n  Tip: Utiliza o comando /newpack se desejas:\n    - Converter vários stickers simultaneamente,\n    - Converter um conjunto completo de stickers.",
+    "unsupported_sticker_source": "%source% não é uma fonte de stickers suportada. Por favor utiliza o comando /sources de forma a obteres a lista de fontes suportadas pelo bot.",
+    "supported_sticker_sources": "Os seguinte links (URLs) são fontes suportadas pelo bot relativamente a conjunto de stickers:\n\n%sources%\n\nAdiciona o identificador/nome do conjunto de stickers que pretendes converter no fim de estes links, de forma a que bot consiga reconhecer o conjunto via link."
   },
   "app": {
     "storagepathnotexist": "Diretório de armazenamento temporário não existe, criando o mesmo."
